@@ -1,0 +1,381 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Scripts = Instance.new("TextButton")
+local Info = Instance.new("TextButton")
+local ScriptsFrame = Instance.new("Frame")
+local HoodModded = Instance.new("TextButton")
+local PhantomForces = Instance.new("TextButton")
+local HoodModdedFrame = Instance.new("Frame")
+local chariotsware = Instance.new("TextButton")
+local SoftVortex = Instance.new("TextButton")
+local GA = Instance.new("TextButton")
+local NOTL = Instance.new("TextButton")
+local PhantomForcesFrame = Instance.new("Frame")
+local Ehub = Instance.new("TextButton")
+local ProjectEvo = Instance.new("TextButton")
+local Nexuscc = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local InfoFrame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.352976918, 0, 0.288723677, 0)
+Frame.Size = UDim2.new(0, 500, 0, 300)
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.356000006, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 144, 0, 28)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "XIN'S HUB"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+TextLabel.TextWrapped = true
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Frame
+Scripts.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Scripts.BorderSizePixel = 0
+Scripts.Size = UDim2.new(0, 178, 0, 50)
+Scripts.Font = Enum.Font.FredokaOne
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.TextSize = 25.000
+
+Info.Name = "Info"
+Info.Parent = Frame
+Info.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Info.BorderSizePixel = 0
+Info.Position = UDim2.new(0.643999994, 0, 0, 0)
+Info.Size = UDim2.new(0, 178, 0, 50)
+Info.Font = Enum.Font.FredokaOne
+Info.Text = "Info"
+Info.TextColor3 = Color3.fromRGB(255, 255, 255)
+Info.TextSize = 25.000
+
+ScriptsFrame.Name = "ScriptsFrame"
+ScriptsFrame.Parent = Frame
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptsFrame.BackgroundTransparency = 1.000
+ScriptsFrame.Position = UDim2.new(0, 0, 0.166666672, 0)
+ScriptsFrame.Size = UDim2.new(0, 500, 0, 250)
+ScriptsFrame.Visible = false
+
+HoodModded.Name = "HoodModded"
+HoodModded.Parent = ScriptsFrame
+HoodModded.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+HoodModded.BorderColor3 = Color3.fromRGB(255, 255, 255)
+HoodModded.Position = UDim2.new(0.0319999978, 0, 0.0399999842, 0)
+HoodModded.Size = UDim2.new(0, 200, 0, 50)
+HoodModded.Font = Enum.Font.FredokaOne
+HoodModded.Text = "HoodModded"
+HoodModded.TextColor3 = Color3.fromRGB(255, 255, 255)
+HoodModded.TextSize = 30.000
+HoodModded.TextWrapped = true
+
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = ScriptsFrame
+PhantomForces.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PhantomForces.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.Position = UDim2.new(0.579999983, 0, 0.0399999991, 0)
+PhantomForces.Size = UDim2.new(0, 200, 0, 50)
+PhantomForces.Font = Enum.Font.FredokaOne
+PhantomForces.Text = "PhantomForces"
+PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.TextSize = 30.000
+
+HoodModdedFrame.Name = "HoodModdedFrame"
+HoodModdedFrame.Parent = ScriptsFrame
+HoodModdedFrame.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+HoodModdedFrame.BorderSizePixel = 0
+HoodModdedFrame.Position = UDim2.new(0, 0, 0.307999998, 0)
+HoodModdedFrame.Size = UDim2.new(0, 500, 0, 173)
+
+chariotsware.Name = "chariotsware"
+chariotsware.Parent = HoodModdedFrame
+chariotsware.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+chariotsware.BorderColor3 = Color3.fromRGB(255, 255, 255)
+chariotsware.Position = UDim2.new(0.0300001223, 0, 0.0625433922, 0)
+chariotsware.Size = UDim2.new(0, 200, 0, 50)
+chariotsware.Font = Enum.Font.FredokaOne
+chariotsware.Text = "Chariotsware"
+chariotsware.TextColor3 = Color3.fromRGB(255, 255, 255)
+chariotsware.TextSize = 30.000
+chariotsware.TextWrapped = true
+
+SoftVortex.Name = "SoftVortex"
+SoftVortex.Parent = HoodModdedFrame
+SoftVortex.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+SoftVortex.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SoftVortex.Position = UDim2.new(0.579999983, 0, 0.0625433922, 0)
+SoftVortex.Size = UDim2.new(0, 198, 0, 50)
+SoftVortex.Font = Enum.Font.FredokaOne
+SoftVortex.Text = "SoftVortex"
+SoftVortex.TextColor3 = Color3.fromRGB(255, 255, 255)
+SoftVortex.TextSize = 30.000
+SoftVortex.TextWrapped = true
+
+GA.Name = "GA$"
+GA.Parent = HoodModdedFrame
+GA.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+GA.BorderColor3 = Color3.fromRGB(255, 255, 255)
+GA.Position = UDim2.new(0.578000069, 0, 0.536531806, 0)
+GA.Size = UDim2.new(0, 200, 0, 50)
+GA.Font = Enum.Font.FredokaOne
+GA.Text = "GA$"
+GA.TextColor3 = Color3.fromRGB(255, 255, 255)
+GA.TextSize = 30.000
+GA.TextWrapped = true
+
+NOTL.Name = "NOTL"
+NOTL.Parent = HoodModdedFrame
+NOTL.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+NOTL.BorderColor3 = Color3.fromRGB(255, 255, 255)
+NOTL.Position = UDim2.new(0.0300000906, 0, 0.536531806, 0)
+NOTL.Size = UDim2.new(0, 200, 0, 50)
+NOTL.Font = Enum.Font.FredokaOne
+NOTL.Text = "NOTL"
+NOTL.TextColor3 = Color3.fromRGB(255, 255, 255)
+NOTL.TextSize = 30.000
+NOTL.TextWrapped = true
+
+PhantomForcesFrame.Name = "PhantomForcesFrame"
+PhantomForcesFrame.Parent = ScriptsFrame
+PhantomForcesFrame.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+PhantomForcesFrame.BorderSizePixel = 0
+PhantomForcesFrame.Position = UDim2.new(0, 0, 0.307999998, 0)
+PhantomForcesFrame.Size = UDim2.new(0, 500, 0, 173)
+PhantomForcesFrame.Visible = false
+
+Ehub.Name = "Ehub"
+Ehub.Parent = PhantomForcesFrame
+Ehub.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Ehub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Ehub.Position = UDim2.new(0.0320000052, 0, 0.0625433326, 0)
+Ehub.Size = UDim2.new(0, 200, 0, 50)
+Ehub.Font = Enum.Font.FredokaOne
+Ehub.Text = "Ehub"
+Ehub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ehub.TextSize = 30.000
+Ehub.TextWrapped = true
+
+ProjectEvo.Name = "ProjectEvo"
+ProjectEvo.Parent = PhantomForcesFrame
+ProjectEvo.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+ProjectEvo.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ProjectEvo.Position = UDim2.new(0.579999983, 0, 0.0625433326, 0)
+ProjectEvo.Size = UDim2.new(0, 200, 0, 50)
+ProjectEvo.Font = Enum.Font.FredokaOne
+ProjectEvo.Text = "ProjectEvo"
+ProjectEvo.TextColor3 = Color3.fromRGB(255, 255, 255)
+ProjectEvo.TextSize = 30.000
+ProjectEvo.TextWrapped = true
+
+Nexuscc.Name = "Nexus.cc"
+Nexuscc.Parent = PhantomForcesFrame
+Nexuscc.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Nexuscc.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Nexuscc.Position = UDim2.new(0.579999983, 0, 0.536531806, 0)
+Nexuscc.Size = UDim2.new(0, 200, 0, 50)
+Nexuscc.Font = Enum.Font.FredokaOne
+Nexuscc.Text = "Nexus.cc"
+Nexuscc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Nexuscc.TextSize = 30.000
+Nexuscc.TextWrapped = true
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = PhantomForcesFrame
+DarkHub.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+DarkHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.Position = UDim2.new(0.0320000052, 0, 0.536531806, 0)
+DarkHub.Size = UDim2.new(0, 200, 0, 50)
+DarkHub.Font = Enum.Font.FredokaOne
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.TextSize = 30.000
+DarkHub.TextWrapped = true
+
+InfoFrame.Name = "InfoFrame"
+InfoFrame.Parent = Frame
+InfoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoFrame.BackgroundTransparency = 1.000
+InfoFrame.Position = UDim2.new(0, 0, 0.166666672, 0)
+InfoFrame.Size = UDim2.new(0, 500, 0, 250)
+InfoFrame.Visible = false
+
+TextLabel_2.Parent = InfoFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.159999996, 0)
+TextLabel_2.Size = UDim2.new(0, 499, 0, 50)
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "J = OPEN, K = CLOSE"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = InfoFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0, 0, 0.639999986, 0)
+TextLabel_3.Size = UDim2.new(0, 499, 0, 50)
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "Made By xin#0173"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.356000006, 0, 0.0933333337, 0)
+TextLabel_4.Size = UDim2.new(0, 144, 0, 22)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "v1.0.0"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 25.000
+TextLabel_4.TextWrapped = true
+
+-- Scripts:
+
+local function WYLVSB_fake_script() -- Scripts.LocalScript 
+	local script = Instance.new('LocalScript', Scripts)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptsFrame.Visible = true
+		script.Parent.Parent.InfoFrame.Visible = false
+	end)
+end
+coroutine.wrap(WYLVSB_fake_script)()
+local function TQRBL_fake_script() -- Info.LocalScript 
+	local script = Instance.new('LocalScript', Info)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ScriptsFrame.Visible = false
+		script.Parent.Parent.InfoFrame.Visible = true
+	end)
+end
+coroutine.wrap(TQRBL_fake_script)()
+local function PTYD_fake_script() -- HoodModded.LocalScript 
+	local script = Instance.new('LocalScript', HoodModded)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HoodModdedFrame.Visible = true
+		script.Parent.Parent.PhantomForcesFrame.Visible = false
+	end)
+end
+coroutine.wrap(PTYD_fake_script)()
+local function BDMI_fake_script() -- PhantomForces.LocalScript 
+	local script = Instance.new('LocalScript', PhantomForces)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HoodModdedFrame.Visible = false
+		script.Parent.Parent.PhantomForcesFrame.Visible = true
+	end)
+end
+coroutine.wrap(BDMI_fake_script)()
+local function DIBEGKP_fake_script() -- chariotsware.LocalScript 
+	local script = Instance.new('LocalScript', chariotsware)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Rippeed/DaHoodinary/main/chariotsware"))()
+	end)
+end
+coroutine.wrap(DIBEGKP_fake_script)()
+local function GCIWDRQ_fake_script() -- SoftVortex.LocalScript 
+	local script = Instance.new('LocalScript', SoftVortex)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/SoftVortex/MACHINE/main/MACHINE"),true))()
+	end)
+end
+coroutine.wrap(GCIWDRQ_fake_script)()
+local function LGUCGE_fake_script() -- GA.LocalScript 
+	local script = Instance.new('LocalScript', GA)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/angeloX041/GASV1.5/main/GA%24V1.5"))()
+	end)
+end
+coroutine.wrap(LGUCGE_fake_script)()
+local function BMEDJMK_fake_script() -- NOTL.LocalScript 
+	local script = Instance.new('LocalScript', NOTL)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NOTLONTOP/dd/Hey/DAHOODMODDED", true))()
+	end)
+end
+coroutine.wrap(BMEDJMK_fake_script)()
+local function NYNFXN_fake_script() -- Ehub.LocalScript 
+	local script = Instance.new('LocalScript', Ehub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://ehub.fun/raw/script.lua"))
+	end)
+end
+coroutine.wrap(NYNFXN_fake_script)()
+local function LWLS_fake_script() -- ProjectEvo.LocalScript 
+	local script = Instance.new('LocalScript', ProjectEvo)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+	end)
+end
+coroutine.wrap(LWLS_fake_script)()
+local function MUZVSI_fake_script() -- Nexuscc.LocalScript 
+	local script = Instance.new('LocalScript', Nexuscc)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/LittleDyingDuck/Nexus.cc-Crack/main/crack.lua"))();
+	end)
+end
+coroutine.wrap(MUZVSI_fake_script)()
+local function HQSXZ_fake_script() -- DarkHub.LocalScript 
+	local script = Instance.new('LocalScript', DarkHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(HQSXZ_fake_script)()
+local function SHQULSP_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "j" then
+			script.Parent.Visible = true
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "k" then
+			script.Parent.Visible = false
+		end
+	end)
+end
+coroutine.wrap(SHQULSP_fake_script)()
